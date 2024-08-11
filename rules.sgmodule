@@ -57,3 +57,7 @@ DOMAIN-SUFFIX,x.com,PROXY
 # Xiaohongshu
 DOMAIN-SUFFIX,xiaohongshu.com,DIRECT
 DOMAIN-SUFFIX,xhscdn.com,DIRECT
+
+[URL Rewrite]
+^https?:\/\/(www\.)?g\.cn https://www.google.com 302
+^https?:\/\/(www\.)?google\.cn https://www.google.com 302
